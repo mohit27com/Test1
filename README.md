@@ -2,4 +2,4 @@
 
 - This repository is for testing projects and different features of github.
 
-test.mohit27.com
+https://test.mohit27.com
