@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #808080;
+    /* background-color: #808080; */
+    background-color: black;
 }
 
 /* Navbar styling start */
@@ -73,8 +74,35 @@ body {
 }
 
 .bbb{
-/* position: absolute;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%); */
+    color: red;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+
+.zzz {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    
+    object-fit: cover;
+    z-index: 1;
+}
+
+.yyy {
+    position: absolute;
+    width: 100%;
+    top: calc(48vh);
+    z-index: 2;
+    display: grid;
+        place-items: center;
+}
+#time, .xxx {
+    src: url(sf-pro-display_semibold.woff2) format('.woff2');
+        font-weight: 500;
+        font-style: normal;
+        font-size: 60px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
